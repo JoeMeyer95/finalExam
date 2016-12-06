@@ -65,8 +65,8 @@ perrf (const char *fmt, ...)
 void
 report (const char *file, count_t ccount, count_t wcount, count_t lcount)
 {
-	std::cout << lcount << " Lines" << "\n";
-	std::cout << ccount << " Characters" << "\n";
+	std::cout << "Number of Lines " << lcount << "\n";
+	std::cout << "Number of Characters " << ccount << "\n";
   //printf ("%6lu %6lu \n", lcount, ccount);
 }
 
